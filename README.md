@@ -1,52 +1,49 @@
-# Exception Classes
-
 BaseException
-+--SystemExit
-+--KeyboardInterrupt
-+--GeneratorExit
-+--Eeception
-	+--StopIteration
-	+--StandardError
-		+--BufferError
-		+--ArithmeticError
-			+--FloatingPointError
-			+--OverflowError
-			+--ZeroDivisionError
-		+--AssertionError
-		+--AttributeError
-		+--EnvironmentError
-			+--IOError
-			+--OSError
-				+--WindowError(Windoes)
-				+--VMSError(VMS)
-		+--EOFError
-		+--ImportError
-		+--LookupError
-			+--IndexError
-			+--KeyError
-		+--MemoryError
-		+--NameError
-			+--UnboundLocalError
-		+--ReferenceError
-		+--RuntimeError
-			+--NotImplementedError
-		+--SyntaxError
-			+--IndentationError
-				+--TabError
-		+--SystemError
-		+--TypeError
-		+--ValueError
-			+--UnicodeError
-				+--UnicodeDecodeError
-				+--UnicodeEncodeError
-				+--UnicodeTranslateError
-	+--Warning
-		+--DeprecationWarning
-		+--PendingDeprecationWarning
-		+--RUntimeWarning
-		+--SysteaxWarning
-		+--UserWarning
-		+--FutureWarning
-		+--ImportWarning
-		+--UnicodeWarnintg
-		+--BytesWarning
+├── SystemExit  
+├── KeyboardInterrupt  
+├── GeneratorExit  
+├── Exception  
+│   ├── StopIteration  
+│   ├── BufferError  
+│   ├── ArithmeticError  
+│   │   ├── FloatingPointError  
+│   │   ├── OverflowError  
+│   │   └── ZeroDivisionError  
+│   ├── AssertionError  
+│   ├── AttributeError  
+│   ├── EnvironmentError  
+│   │   ├── IOError  
+│   │   └── OSError  
+│   │       ├── WindowsError (Windows only)  
+│   │       └── VMSError (VMS only)  
+│   ├── EOFError  
+│   ├── ImportError  
+│   ├── LookupError  
+│   │   ├── IndexError  
+│   │   └── KeyError  
+│   ├── MemoryError  
+│   ├── NameError  
+│   │   └── UnboundLocalError  
+│   ├── ReferenceError  
+│   ├── RuntimeError  
+│   │   └── NotImplementedError  
+│   ├── SyntaxError  
+│   │   └── IndentationError  
+│   │       └── TabError  
+│   ├── SystemError  
+│   ├── TypeError  
+│   └── ValueError  
+│       └── UnicodeError  
+│           ├── UnicodeDecodeError  
+│           ├── UnicodeEncodeError  
+│           └── UnicodeTranslateError  
+└── Warning  
+    ├── DeprecationWarning  
+    ├── PendingDeprecationWarning  
+    ├── RuntimeWarning  
+    ├── SyntaxWarning  
+    ├── UserWarning  
+    ├── FutureWarning  
+    ├── ImportWarning  
+    ├── UnicodeWarning  
+    └── BytesWarning
